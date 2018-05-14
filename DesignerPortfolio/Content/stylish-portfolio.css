@@ -81,7 +81,7 @@ h1, h2, h3, h4, h5, h6 {
     padding-top: 8rem;
     padding-bottom: 8rem;
     background: linear-gradient(90deg,rgba(255,255,255,.1) 0,rgba(255,255,255,.1) 100%);
-    background-image: url('https://www.australia.com/content/australia/en_us/campaigns/offers/jcr:content/mainParsys/hero_946706800/ImageTile/image.adapt.1663.medium.jpg'); /* /App_Data/img/bg-masthead.jpg */
+    background-image: url('bg-masthead.jpg'); /* /App_Data/img/bg-masthead.jpg */
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover
