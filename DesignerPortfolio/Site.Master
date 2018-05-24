@@ -17,7 +17,8 @@
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
 
     <!-- Tema -->
-    <link href="Content/simple-line-icons.css" rel="stylesheet">
+    <link href="Content/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="Content/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
     <link href="Content/stylish-portfolio.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
 </head>
@@ -49,7 +50,7 @@
         <nav id="sidebar-wrapper">
             <ul class="sidebar-nav">
                 <li class="sidebar-brand">
-                    <a class="js-scroll-trigger" href="#page-top">Start Bootstrap</a>
+                    <a class="js-scroll-trigger" href="#page-top">Jacopo's Website</a>
                 </li>
                 <li class="active sidebar-nav-item"><a class="nav-link" href="Default.aspx">Home</a></li>
                 <li class="sidebar-nav-item"><a class="nav-link" href="About.aspx">About</a></li>
@@ -60,9 +61,30 @@
 
         <asp:ContentPlaceHolder ID="MainContent" runat="server">
         </asp:ContentPlaceHolder>
-        
-        <asp:ContentPlaceHolder ID="Footer" runat="server">
-        </asp:ContentPlaceHolder>
+
+        <footer class="footer text-center">
+            <div class="container">
+                <ul class="list-inline mb-5">
+                    <li class="list-inline-item">
+                        <a class="social-link rounded-circle text-white mr-3" href="#">
+                            <i class="icon-social-facebook"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="social-link rounded-circle text-white mr-3" href="#">
+                            <i class="icon-social-twitter"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="social-link rounded-circle text-white" href="#">
+                            <i class="icon-social-github"></i>
+                        </a>
+                    </li>
+                </ul>
+                <p class="text-muted small mb-0">Copyright &copy; Jacopo's website 2018</p>
+            </div>
+        </footer>
+
 
     </form>
 
