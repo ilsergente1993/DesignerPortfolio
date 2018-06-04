@@ -32,7 +32,7 @@ namespace DesignerPortfolio
                 mail.IsBodyHtml = true;
                 SmtpClient smtp = new SmtpClient();
                 smtp.Host = "smtp.gmail.com"; //Or Your SMTP Server Address
-                smtp.Credentials = new NetworkCredential("ilsergente93@gmail.com", "55jey?google2017"); // ***use valid credentials***
+                smtp.Credentials = new NetworkCredential("........", "......"); // ***use valid credentials***
                 smtp.Port = 587;
 
                 //Or your Smtp Email ID and Password

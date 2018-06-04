@@ -132,7 +132,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="About.aspx" />
+    <Content Include="Content\img\portfolio\cooking-tools.jpg" />
+    <Content Include="Content\img\portfolio\design-studio.png" />
+    <Content Include="Content\img\portfolio\sport-shop.jpg" />
+    <Content Include="Portfolio.aspx" />
+    <Content Include="App_Data\DesignerDB.mdf" />
+    <Content Include="App_Data\DesignerDB_log.ldf">
+      <DependentUpon>DesignerDB.mdf</DependentUpon>
+    </Content>
     <Content Include="Content\img\bg-callout.jpg" />
     <Content Include="Content\img\portfolio-1.jpg" />
     <Content Include="Content\img\portfolio-2.jpg" />
@@ -273,12 +280,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
-    <Compile Include="About.aspx.cs">
-      <DependentUpon>About.aspx</DependentUpon>
+    <Compile Include="Portfolio.aspx.cs">
+      <DependentUpon>Portfolio.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="About.aspx.designer.cs">
-      <DependentUpon>About.aspx</DependentUpon>
+    <Compile Include="Portfolio.aspx.designer.cs">
+      <DependentUpon>Portfolio.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Contact.aspx.cs">
@@ -328,9 +335,7 @@
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
     </Compile>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="App_Data\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-3.3.1.slim.min.map" />

@@ -49,7 +49,7 @@
                         </div>
                     </div>
                     <div class="col-md-12">
-                        <asp:Button lass="btn btn-success btn-send" ID="SendEmail" runat="server" Text="Button" Value="Send message" OnClick="SendEmail_Click" />
+                        <asp:Button class="btn btn-success btn-send" ID="SendEmail" runat="server" Text="Button" Value="Send message" OnClick="SendEmail_Click" />
                     </div>
                 </div>
                 <div class="row">
